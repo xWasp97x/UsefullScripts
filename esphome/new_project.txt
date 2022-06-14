@@ -1,2 +1,6 @@
 docker run --rm -v "${PWD}":/config -it esphome/esphome wizard livingroom.yaml
 
+# Or, if esphome is installed
+
+esphome wizard <project name>.yaml
+
